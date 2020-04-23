@@ -83,3 +83,5 @@ production:
   database: horsebet_backend_production
   username: horsebet_backend
   password: <%= ENV['HORSEBET_BACKEND_DATABASE_PASSWORD'] %>
+
+  DATABASE_URL: postgres://heqgybxioklknk:ad98b9b04ba9b22dfc04ec9e92a15a8ac49711d3e11b81db108e897213d40664@ec2-3-223-21-106.compute-1.amazonaws.com:5432/d42cio4bg87p80
